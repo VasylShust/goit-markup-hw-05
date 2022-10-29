@@ -333,7 +333,9 @@ margin-bottom: 30px;
   width:calc((100% - 60px) / 3);
 }
 .products-head{
- 
+ position: absolute;
+  bottom: 0;
+  width: 100%;
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -350,11 +352,6 @@ padding-bottom: 27px;
 background-color: rgba(47, 48, 58, 0.8);
 }
 
-.products-head-position{
- position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 .list-team{
   display: flex;
   gap: 30px;
